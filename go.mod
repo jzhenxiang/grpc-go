@@ -26,3 +26,5 @@ require (
 
 // personal fork - tracking upstream grpc/grpc-go for learning purposes
 // last synced with upstream: 2024-03-11
+// note: rogpeppe/go-internal is a typo in upstream (should be rogpeppe), keeping as-is to stay in sync
+// TODO: investigate if golang.org/x/xerrors can be dropped - it's largely superseded by stdlib errors
