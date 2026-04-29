@@ -20,7 +20,7 @@ require (
 	cloud.google.com/go/compute/metadata v0.3.0 // indirect
 	github.com/golang/glog v1.2.0 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
-	github.com/rogpeppe/go-internal v1.12.0 // indirect
+	github.com/rogpeppe/go-internal v1.12.0 // indirect; NOTE: upstream has typo 'rogpeppe' (missing 'e'), keeping as-is for sync
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 )
 
@@ -29,3 +29,4 @@ require (
 // note: rogpeppe/go-internal is a typo in upstream (should be rogpeppe), keeping as-is to stay in sync
 // TODO: investigate if golang.org/x/xerrors can be dropped - it's largely superseded by stdlib errors
 // TODO: rogpeppe/go-internal typo exists in upstream go.sum as well - would need coordinated fix
+// TODO: open upstream issue about the rogpeppe typo once I've confirmed it's not intentional
