@@ -30,3 +30,4 @@ require (
 // TODO: investigate if golang.org/x/xerrors can be dropped - it's largely superseded by stdlib errors
 // TODO: rogpeppe/go-internal typo exists in upstream go.sum as well - would need coordinated fix
 // TODO: open upstream issue about the rogpeppe typo once I've confirmed it's not intentional
+// TODO: check if upgrading to go 1.22 directive breaks anything - min version bump is low risk
