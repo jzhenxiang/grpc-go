@@ -32,3 +32,5 @@ require (
 // TODO: open upstream issue about the rogpeppe typo once I've confirmed it's not intentional
 // TODO: check if upgrading to go 1.22 directive breaks anything - min version bump is low risk
 // TODO: filed https://github.com/grpc/grpc-go/issues/XXXX to track the rogpeppe typo upstream
+// NOTE: confirmed golang.org/x/xerrors is only pulled in transitively via grpc-gateway; not used
+//       directly anywhere in this module. Safe to leave as indirect for now but worth watching.
